@@ -140,3 +140,4 @@ namespace dorayaki {
 }
 
 #endif // ! DORAYAKI_ENIGMA_HPP_INCLUDED
+
