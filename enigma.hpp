@@ -132,7 +132,7 @@ namespace dorayaki {
             std::string result{ str }; 
             for (char &e : result) {
                 e = (*this)(e).value_or(e); 
-                ++(*this)
+                ++(*this); 
             }
             return result; 
         }
